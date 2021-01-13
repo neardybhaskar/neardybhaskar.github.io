@@ -1,31 +1,206 @@
-<html>
+	<!DOCTYPE html>
+	<html lang="en">
 	<head>
-		<title>Hello There</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Responsive Portfolio</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
 		<link href="assets/css/bootstrap.css" rel="stylesheet" />
-		<link href="assets/css/style.css" rel="stylesheet" />
+		<script
+		src="https://code.jquery.com/jquery-3.5.1.js"
+		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+		crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	</head>
-	<body background="assets/img/wallpapers.jpg">
-		<div >
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<a class="navbar-brand" href="index.html">Bhaskar Singh</a>
+	<body >
+		<header>
+			<div >
+					<nav class="navbar navbar-expand-lg navbar-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<a class="navbar-brand logo" href="index.html" >Bhaskar Singh</a>
 
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Resume <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Skills</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Projects</a>
-				</li>
-				</ul>
+					<div class="collapse navbar-collapse headerContent" id="navbarTogglerDemo03">
+						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item active">
+							<a class="nav-link headerText" href="#home">Home</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link headerText" href="#about">About</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link headerText" href="#services">Skills</a>
+						</li>
+						<!-- <li class="nav-item active">
+							<a class="nav-link headerText" href="#">Work</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link headerText" href="#">Testimonial</a>
+						</li> -->
+						<li class="nav-item active">
+							<a class="nav-link headerText" href="#contact">Contact</a>
+						</li>
+						</ul>
+					</div>
+					</nav>
 			</div>
-			</nav>
-		</div>
+		</header>
+		<section class="banner" id="home">
+			<div>
+				<h1>Bhaskar Singh</h1><br>
+				<h2>I am FullStack Developer</h2>
+				<a href="#about" class="gotoMyInfo">About Me</a>
+			</div>
+		</section>
+
+		<section class="about" id="about">
+			<div class="heading">
+				<p></p>
+				<h2>About me</h2>
+			</div>
+			<div class="content">
+				<div class="insideContainer w50">
+					<img src="assets/img/905909.jfif" alt="" class="contentPic">
+				</div>
+				<div class="contentDetails w50">
+					<h3>Who am I?</h3>
+					<h2>I'm <b>Bhaskar Singh</b>, a Java and Angular Developer</h2>
+					<p>All you contents</p>
+					<div class="heading bottom">
+						<a href="assets/others/BhaskarCV.pdf" target="_blank" class="gotoMyInfo resumeButton">Download CV</a>
+						<div class="aboutMe">
+							<b>Name:</b> Bhaskar Singh<br>
+							<b>Age:</b> 26
+						</div>
+						<div class="aboutMe">
+							<b>Email:</b> singhbhaskar209@gmail.com<br>
+							<b>Location:</b> India
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services" id="services">
+			<div class="heading white">
+				<h2>My Skills</h2>
+				<p>Skills on which I am working and have good experience</p>
+			</div>
+			<div class="content">
+				<div class="servicesBx">
+					<i class="fa fa-css3 fa-4x"></i>
+					<h3>CSS</h3>
+					<p></p>
+				</div>
+				<!-- <div class="servicesBx">
+					<i class="fa fa-wordpress fa-4x"></i>
+					<h3>B</h3>
+					<p>B</p>
+				</div> -->
+				<div class="servicesBx">
+					<i class="fa fa-html5 fa-4x"></i>
+					<h3>HTML</h3>
+					<p></p>
+				</div>
+				<div class="servicesBx">
+					<i class="fa fa-twitter-square fa-4x"></i>
+					<h3>Java</h3>
+					<p></p>
+				</div>
+				<div class="servicesBx">
+					<i class="fa fa-linkedin-square fa-4x"></i>
+					<h3>Angular</h3>
+					<p></p>
+				</div>
+				<div class="servicesBx">
+					<i class="fa fa-whatsapp fa-4x"></i>
+					<h3>Oracle DB</h3>
+					<p>F</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact layout -->
+		<section class="contact" id="contact">
+			<div class="heading white">
+				<p>Please feel free to contact...</p>
+				<h2>How to Contact Me</h2>
+			</div>
+			<div class="contactContent">
+				<div class="contactInfo">
+					<h3>Contact Info</h3>
+					<p>I also work as a Freelancer</p>
+					<div class="contactInfoBox">
+						<div class="box">
+							<div class="icon">
+								<i class="fa fa-map-marker"></i>
+							</div>
+							<div class="text">
+								<h3>Address</h3>
+								<address>R7, Life Republic<br>Marunji Pune</address>
+							</div>
+						</div>
+						<div class="box">
+							<div class="icon">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="text">
+								<h3>Phone no.</h3>
+								<p>+91-9768243197</p>
+							</div>
+						</div>
+						<div class="box">
+							<div class="icon">
+								<i class="fa fa-envelope-o"></i>
+							</div>
+							<div class="text">
+								<h3>Email</h3>
+								<p>singhbhaskar209@gmail.com</p>
+							</div>
+						</div>
+						<br>
+						<h3>Social Connect</h3>
+						<div class="socialContact">
+							<div class="icon">
+								<a href="https://twitter.com/bhaskarsinghOO7">
+									<i class="fa fa-twitter fa-3x socialLogo"></i>
+								</a>
+							</div>
+							<!-- <div class="icon">
+								<a href="">
+									<i class="fa fa-reddit-alien fa-3x socialLogo"></i>
+								</a>
+							</div> -->
+							<div class="icon">
+								<a href="">
+									<i class="fa fa-linkedin-square fa-3x socialLogo"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="formBx">
+					<form action="">
+						<h3>Message me</h3>
+						<input type="text" placeholder="Name"><br>
+						<input type="email" placeholder="Email"><br>
+						<textarea name="" id="" placeholder="Your message" cols="30" rows="10"></textarea>
+						<input type="submit" value="Message me" />
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- Creating Footer Layout in HTML -->
+		<footer class="copyright">
+			<p>&copy; 2020, https://neardybhaskar.github.io, Allrights reserved</p>
+		</footer>
+
+		<script>
+			window.addEventListener("scroll", function() {
+				var header = document.querySelector("header");
+				header.classList.toggle("sticky", window.scrollY > 0);
+			})
+		</script>
 	</body>
-</html>
+	</html>
