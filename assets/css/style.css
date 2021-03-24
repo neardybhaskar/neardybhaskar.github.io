@@ -272,3 +272,11 @@ footer.copyright {
   text-align: center;
   padding: 10px;
 }
+
+.displayPic {
+  width: 500px;
+  height: 350px;
+  border-top-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  right: 8em;
+}
