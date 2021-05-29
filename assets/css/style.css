@@ -15,6 +15,7 @@ header {
 
 .headerText {
     font-size: 17px;
+    color: midnightblue;
 }
 
 .logo {
@@ -48,7 +49,7 @@ section {
 }
 
 .banner {
-    background: #000;
+    background: lightblue;
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -58,12 +59,12 @@ section {
 
 .banner h1 {
     font-size: 3.5em;
-    color: #efefef;
+    color: steelblue;
     font-weight: 500;
 }
 
 .banner h2 {
-    color: whitesmoke;
+    color: teal;
     font-size: 2em;
     font-weight: 400;
 }
@@ -277,7 +278,22 @@ footer.copyright {
 .displayPic {
     width: 500px;
     height: 350px;
-    border-top-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+    /* border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%; */
+    border-radius: 25%;
     right: 8em;
+}
+
+a.nav-link.headerText {
+    color: midnightblue !important;
+    font-weight: bold;
+}
+
+a.navbar-brand.logo {
+    color: midnightblue !important;
+    font-weight: bold;
+}
+
+.collapse.navbar-collapse.headerContent {
+    margin-left: 10rem;
 }
