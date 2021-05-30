@@ -58,20 +58,20 @@ section {
 }
 
 .banner h1 {
-    font-size: 3.5em;
-    color: steelblue;
-    font-weight: 500;
+    font-size: 3.6em;
+    color: seagreen;
+    font-weight: 900;
 }
 
 .banner h2 {
     color: teal;
     font-size: 2em;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .gotoMyInfo {
     position: relative;
-    background: #009e66;
+    background: steelblue;
     display: inline-block;
     color: #000;
     margin-top: 20px;
@@ -98,7 +98,7 @@ section {
 .heading h2 {
     font-size: 4em;
     font-weight: bold;
-    color: #009e66;
+    color: steelblue;
 }
 
 .content {
@@ -172,12 +172,12 @@ img {
 }
 
 .servicesBx:hover {
-    border-bottom: 2px solid #009e66;
+    border-bottom: 2px solid steelblue;
     cursor: pointer;
 }
 
 .services .content .servicesBx .fa {
-    color: #009e66;
+    color: steelblue;
 }
 
 .services {
@@ -206,7 +206,7 @@ img {
 
 .formBx form h3,
 .contactInfo h3 {
-    color: #009e66;
+    color: steelblue;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -223,7 +223,7 @@ img {
 }
 
 .formBx form input[type="submit"] {
-    background: #009e66;
+    background: steelblue;
     max-width: 250px;
     cursor: pointer;
     font-weight: 600;
@@ -234,7 +234,7 @@ img {
 .formBx form input:focus,
 .formBx form textarea:hover,
 .formBx form textarea:focus {
-    border-bottom: 2px solid #009e66;
+    border-bottom: 2px solid steelblue;
 }
 
 .contactInfoBox {
@@ -257,7 +257,7 @@ img {
 
 .fa {
     font-size: 42px;
-    color: #009e66;
+    color: steelblue;
 }
 
 .socialContact {
@@ -296,4 +296,24 @@ a.navbar-brand.logo {
 
 .collapse.navbar-collapse.headerContent {
     margin-left: 10rem;
+}
+
+.html-pic {
+    height: 10rem;
+}
+
+.ui-stack-pic {
+    height: 12rem;
+}
+
+.java-pic {
+    height: 12rem;
+}
+
+.spring-pic {
+    height: 8rem;
+}
+
+.spring-boot-pic {
+    height: 8rem;
 }
